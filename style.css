@@ -52,10 +52,10 @@ table {
 /* rules for the whole body */
 
 body{
-  max-width: 800px;
+  max-width: 950px;
   max-height: 100px;
-  padding-top: 75px;
-  margin-left: 50px;
+  padding-top: 100px;
+  margin-left: 200px;
 }
 
 /* background circle */
@@ -63,15 +63,15 @@ body{
 .back-circle{
   width: 200px;
   height: 200px;
-  border-radius:10px
+  border-radius:50px
   z-index:-1
-  color:#579BFA;
+  color:#97E2F4;
 }
 
 /* line border */
 
 .line{
-  border-left: 3px #579BFA solid;
+  border-left: 5px #97E2F4 solid;
   max-height: 90%;
   padding: 15px;
 }
@@ -79,22 +79,28 @@ body{
 /* light square stuff */
 
 .light-square{
+  position: relative;
   margin: 30px;
-  max-width: 500px;
+  max-width: 800px;
   max-height: 400px;
+  padding: 10px;
+  border-radius: 10px;
   display: inline-block;
-  background-color: ##579BFA;
+  background-color: #77DFF7;
   z-index: -1;
 
 /* darker, foreground squares, yo */
 
 }
 .dark-square{
-  margin:
-  max-width:
-  max-height:
+  position: relative;
+  margin: 30px;
+  max-width: 800px;
+  max-height: 400px;
+  padding: 10px;
+  border-radius: 10px;
   display: inline-block;
-  background-color:
+  background-color:#4CC0DB;
   z-index: -1;
 }
 
@@ -104,9 +110,10 @@ body{
 h2{
   font-family: Lato, sans-serif;
   font-size: 20px;
-  color: #579BFA;
+  color: white;
   list-style: none;
-  
+  border-bottom: 1px solid white;
+  padding: 5px;
 }
 
 /* text in the squares */
@@ -115,7 +122,7 @@ p{
   padding: 10px;
   font-family: Lato, sans-serif;
   font-size: 14px;
-  color: #579BFA;
+  color: white;
   list-style: none;
   margin-left: 20px;
   width: 400px;
