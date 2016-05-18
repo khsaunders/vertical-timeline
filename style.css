@@ -71,9 +71,10 @@ body{
 /* line border */
 
 .line{
-  border-left: 5px #97E2F4 solid;
-  max-height: 90%;
+  border-left: 7px #97E2F4 solid;
+  max-height: 80%;
   padding: 15px;
+  margin-bottom: 70px;
 }
 
 /* light square stuff */
@@ -138,4 +139,13 @@ p{
   font-size:
   font-weight:
   color:
+}
+
+/* icon */
+
+i{
+  color: white;
+  background-color: #97E2F4;
+  border-radius: 25px;
+
 }
