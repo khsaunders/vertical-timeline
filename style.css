@@ -47,13 +47,22 @@ table {
 	border-spacing: 0;
 }
 
-a:li{
-  text-decoration: none;
+/*------------------- end of reset ----------------------*/
+
+/* rules for the whole body */
+
+body{
+  max-width: 800px;
+  max-height: 100px;
+  padding-top: 75px;
+  margin-left: 50px;
 }
 
 /* background circle */
 
 .back-circle{
+  width: 200px;
+  height: 200px;
   border-radius:10px
   z-index:-1
   color:#579BFA;
@@ -61,21 +70,21 @@ a:li{
 
 /* line border */
 
-.line-border{
-  margin-left:
-  max-width:
-  max-height:
+.line{
+  border-left: 3px #579BFA solid;
+  max-height: 90%;
+  padding: 15px;
 }
 
 /* light square stuff */
 
 .light-square{
-  margin:
+  margin: 30px;
   max-width: 500px;
   max-height: 400px;
   display: inline-block;
-  background-color:
-  color:
+  background-color: ##579BFA;
+  z-index: -1;
 
 /* darker, foreground squares, yo */
 
@@ -86,29 +95,28 @@ a:li{
   max-height:
   display: inline-block;
   background-color:
+  z-index: -1;
 }
 
 
 /* titles for text in squares */
 
-.titles{
+h2{
   font-family: Lato, sans-serif;
   font-size: 20px;
   color: #579BFA;
   list-style: none;
-  padding-top:10px;
-  padding-bottom: 2px:
-  margin-left: 20px;
+  
 }
 
 /* text in the squares */
 
-.square-text{
+p{
+  padding: 10px;
   font-family: Lato, sans-serif;
   font-size: 14px;
   color: #579BFA;
   list-style: none;
-  padding: 5px;
   margin-left: 20px;
   width: 400px;
 }
