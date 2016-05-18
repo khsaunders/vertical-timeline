@@ -47,12 +47,16 @@ table {
 	border-spacing: 0;
 }
 
+a:li{
+  text-decoration: none;
+}
+
 /* background circle */
 
 .back-circle{
-  border-radius:
+  border-radius:10px
   z-index:-1
-  color:
+  color:#579BFA;
 }
 
 /* line border */
@@ -63,32 +67,50 @@ table {
   max-height:
 }
 
-.squares{
+/* light square stuff */
+
+.light-square{
+  margin:
+  max-width: 500px;
+  max-height: 400px;
+  display: inline-block;
+  background-color:
+  color:
+
+/* darker, foreground squares, yo */
+
+}
+.dark-square{
   margin:
   max-width:
   max-height:
   display: inline-block;
   background-color:
-  color:
-
 }
+
 
 /* titles for text in squares */
 
 .titles{
-  font-family:
-  font-size:
-  font-weight:
-  color:
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  color: #579BFA;
+  list-style: none;
+  padding-top:10px;
+  padding-bottom: 2px:
+  margin-left: 20px;
 }
 
 /* text in the squares */
 
 .square-text{
-  font-family:
-  font-size:
-  font-weight:
-  color:
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  color: #579BFA;
+  list-style: none;
+  padding: 5px;
+  margin-left: 20px;
+  width: 400px;
 }
 
 /* timestamps */
