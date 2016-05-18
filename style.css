@@ -144,8 +144,14 @@ p{
 /* icon */
 
 i{
+  display: flex;
+  width: 2px;
+  height: 2px;
+  margin: 2px;
   color: white;
   background-color: #97E2F4;
   border-radius: 25px;
+  border: 25px solid #97E2F4;
+
 
 }
