@@ -144,7 +144,7 @@ p{
 /* icon */
 
 i{
-  display: flex;
+  display: inline-block;;
   width: 2px;
   height: 2px;
   margin: 2px;
@@ -153,5 +153,8 @@ i{
   border-radius: 25px;
   border: 25px solid #97E2F4;
 
+}
 
+.fa-paw{
+  align-items: center;
 }
